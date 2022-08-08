@@ -34,10 +34,10 @@ body {
 
 .header__title {
 
-   
+
     font-size: 1.25rem;
     position: absolute;
-   
+
 }
 
 .menu {
@@ -68,11 +68,7 @@ body {
     justify-content: center;
     vertical-align: middle;
     top: 50%;
-
-
 }
-
-
 
 
 header label {
@@ -120,18 +116,18 @@ aside {
     color: rgb(236, 236, 236);
     width: 20%;
     background-color: black;
-    width: 210px;
+    width: 240px;
     padding: 30px 20px 20px 20px;
     float: left;
     margin: 0;
     position: relative;
     z-index: 1;
-
+    color: rgb(236, 236, 236);
 }
 
 .main__nav {
-    background-color: rgb(33, 37, 41);
-    width: 30px;
+
+    width: 40px;
 }
 
 .main__breadcrumb {
@@ -155,6 +151,7 @@ aside {
     padding: 50px;
     margin: 20px 20px 0 0;
     border-radius: 0.25rem;
+    color: white;
 
 }
 
@@ -174,33 +171,43 @@ aside {
     background-color: rgb(220, 53, 69);
 }
 
+
+.card__bottom .fa-angle-right {
+    position: absolute;
+    float: right;
+    right: 0;
+}
+
+.card__bottom>h6 {
+
+    float: left;
+}
+
 .card__top {
-    font-size: 30px;  
+    font-size: 30px;
     height: 70%;
     position: absolute;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     vertical-align: middle;
-    justify-content:center;
+    justify-content: center;
     display: flex;
-    
+
 }
 
-
-
-
-.card_bottom {
-    font-size: 180px;
+.card__bottom {
+    font-size: 18px;
     height: 30%;
+    opacity: 5;
     position: absolute;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     vertical-align: middle;
-    justify-content:center;
+    justify-content: center;
     display: flex;
-    
+
 }
 
 ul {
@@ -216,13 +223,15 @@ li header {
     display: inline-block;
     position: relative;
     list-style: none;
-
+    box-sizing: border-box;
     margin-bottom: 2em;
     margin-right: 2em;
 }
 
 
-
+.nav__ul {
+    width: 30px;
+}
 
 
 .nav__ul li a i {
@@ -252,4 +261,4 @@ header a {
 
 
 
-@media screen and (min-width: 700px) 
+@media screen and (min-width: 700px)
